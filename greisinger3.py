@@ -46,7 +46,9 @@ def main():
 
 	# main loop
 	while True:
-	
+		
+		time.sleep(.5)
+		
 		if (connectionOK):
 		
 			# pruefen, ob wir schon die sensor-daten abrufen muessen
